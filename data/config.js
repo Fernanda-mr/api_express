@@ -2,9 +2,9 @@ const mysql = require('mysql');
 //set database connection credentials
 const config = {
     host: 'localhost',
-    user: 'root',
-    password: 'root',
-    datebase: 'api',
+    user: 'admin',
+    password: 'admin',
+    database: 'api'
 };
 //Create a Mysql pool
 const pool = mysql.createPool(config);
